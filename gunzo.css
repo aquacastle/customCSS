@@ -24,25 +24,6 @@ div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_vo
   text-align: center;
   position: relative;
 }
-div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="157038499671965696"]::before, div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="157038499671965696"]::after {
-  content: "";
-  z-index: 1;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  width: 90%; /* 棒の幅（太さ） */
-  height: 20px; /* 棒の高さ */
-  background: darkred;
-}
-div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="157038499671965696"]::before {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="157038499671965696"]::after {
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="157038499671965696"] img[class*=Voice_avatar] {
-  filter: brightness(0.25) !important;
-}
 
 div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] img[class*=Voice_avatar] {
   width: 100%;
@@ -69,6 +50,33 @@ div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_vo
 
 div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] div[class*=Voice_user] span[class*=Voice_name] {
   line-height: 1.4;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] {
+  display: inline-block;
+  height: auto;
+  aspect-ratio: 1/1;
+  text-align: center;
+  position: relative;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="219413215208013824"]::before, div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="219413215208013824"]::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 90%; /* 棒の幅（太さ） */
+  height: 20px; /* 棒の高さ */
+  background: darkred;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="219413215208013824"]::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="219413215208013824"]::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState][data-userid="219413215208013824"] img[class*=Voice_avatar] {
+  filter: brightness(0.25) !important;
 }
 
 /*# sourceMappingURL=gunzo.css.map */

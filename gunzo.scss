@@ -21,25 +21,29 @@ div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_vo
 	aspect-ratio: 1/1;
 	text-align: center;
 	position: relative;
-	&[data-userid="157038499671965696"]::before,&[data-userid="157038499671965696"]::after{
-		content: "";
-		z-index: 1;
-		position: absolute;
-		top: 40%;
-		left: 50%;
-		width: 90%; /* 棒の幅（太さ） */
-		height: 20px; /* 棒の高さ */
-		background: darkred;
-	}
-	&[data-userid="157038499671965696"]::before{
-		transform: translate(-50%,-50%) rotate(45deg);
-	}
-	&[data-userid="157038499671965696"]::after{
-		transform: translate(-50%,-50%) rotate(-45deg);
-	}
-	&[data-userid="157038499671965696"] img[class*=Voice_avatar]{
-		filter: brightness(0.25)!important;
-	}
+
+	//&[data-userid="157038499671965696"]::before,&[data-userid="157038499671965696"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="157038499671965696"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="157038499671965696"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="157038499671965696"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+
 }
 div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] img[class*=Voice_avatar] {
 	width: 100%;
@@ -63,4 +67,279 @@ div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_vo
 }
 div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] div[class*=Voice_user] span[class*=Voice_name] {
 	line-height: 1.4;
+}
+
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] {
+	display: inline-block;
+	height: auto;
+	aspect-ratio: 1/1;
+	text-align: center;
+	position: relative;
+
+		//あざみ
+//	&[data-userid="157038499671965696"]{
+//	display: none;
+//}
+
+
+	//雛形
+	&[data-userid="219413215208013824"]::before,&[data-userid="219413215208013824"]::after{
+		content: "";
+		z-index: 1;
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		width: 90%; /* 棒の幅（太さ） */
+		height: 20px; /* 棒の高さ */
+		background: darkred;
+	}
+	&[data-userid="219413215208013824"]::before{
+		transform: translate(-50%,-50%) rotate(45deg);
+	}
+
+	&[data-userid="219413215208013824"]::after{
+		transform: translate(-50%,-50%) rotate(-45deg);
+	}
+
+	&[data-userid="219413215208013824"] img[class*=Voice_avatar]{
+		filter: brightness(0.25)!important;
+	}
+
+
+	//がみ
+	//&[data-userid="292565511760248835"]::before,&[data-userid="292565511760248835"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="292565511760248835"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="292565511760248835"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="292565511760248835"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////ただのん
+	//&[data-userid="404179847267614730"]::before,&[data-userid="404179847267614730"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="404179847267614730"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="404179847267614730"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="404179847267614730"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	//
+	////スナパイ
+	//&[data-userid="223098909453451264"]::before,&[data-userid="223098909453451264"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="223098909453451264"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="223098909453451264"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="223098909453451264"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////ちゃげぽよ
+	//&[data-userid="285003839227166720"]::before,&[data-userid="285003839227166720"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="285003839227166720"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="285003839227166720"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="285003839227166720"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	//
+	////まっくす
+	//&[data-userid="977604032828952706"]::before,&[data-userid="977604032828952706"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="977604032828952706"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="977604032828952706"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="977604032828952706"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	//
+	////やみえん
+	//&[data-userid="206653617879515138"]::before,&[data-userid="206653617879515138"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="206653617879515138"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="206653617879515138"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="206653617879515138"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////星月ベール
+	//&[data-userid="988001651405242428"]::before,&[data-userid="988001651405242428"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="988001651405242428"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="988001651405242428"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="988001651405242428"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////とーたす１１
+	//&[data-userid="238304443861303297"]::before,&[data-userid="238304443861303297"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="238304443861303297"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="238304443861303297"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="238304443861303297"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////結目ゆい
+	//&[data-userid="491360643073441796"]::before,&[data-userid="491360643073441796"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="491360643073441796"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="491360643073441796"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="491360643073441796"] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+	//
+	////飴猫
+	//&[data-userid="243759925119942657"]::before,&[data-userid="243759925119942657"]::after{
+	//	content: "";
+	//	z-index: 1;
+	//	position: absolute;
+	//	top: 40%;
+	//	left: 50%;
+	//	width: 90%; /* 棒の幅（太さ） */
+	//	height: 20px; /* 棒の高さ */
+	//	background: darkred;
+	//}
+	//&[data-userid="243759925119942657"]::before{
+	//	transform: translate(-50%,-50%) rotate(45deg);
+	//}
+	//
+	//&[data-userid="243759925119942657"]::after{
+	//	transform: translate(-50%,-50%) rotate(-45deg);
+	//}
+	//
+	//&[data-userid="243759925119942657                   "] img[class*=Voice_avatar]{
+	//	filter: brightness(0.25)!important;
+	//}
+
+
+
 }
