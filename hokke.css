@@ -85,5 +85,8 @@ div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_vo
   text-align: center;
   position: relative;
 }
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] .test {
+  background-color: #fff;
+}
 
 /*# sourceMappingURL=hokke.css.map */
