@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "FOT-ロダンNTLG Pro DB", sans-serif !important;
+}
+
+body {
+  background-color: transparent;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 36px 36px;
+  grid-template: "gm1 center gm2" "fst center fth" "snd center fif" "trd center six"/240px 1fr 240px;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] {
+  display: inline-block;
+  height: auto;
+  aspect-ratio: 1/1;
+  text-align: center;
+  position: relative;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(1) {
+  grid-area: gm1;
+  display: none;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(2) {
+  grid-area: gm2;
+  display: none;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(3) {
+  grid-area: fst;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(4) {
+  grid-area: snd;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(5) {
+  grid-area: trd;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(6) {
+  grid-area: fth;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(7) {
+  grid-area: fif;
+}
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState]:nth-of-type(8) {
+  grid-area: six;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] img[class*=Voice_avatar] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: none;
+  filter: brightness(0.55);
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] img[class*=Voice_avatarSpeaking] {
+  filter: brightness(1);
+  border: none;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] div[class*=Voice_user] {
+  text-align: center;
+  padding-top: 20px;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] div[class*=Voice_user] span[class*=Voice_name] {
+  line-height: 1.4;
+}
+
+div[class*=Voice_voiceContainer] ul[class*=Voice_voiceStates] li[class*=Voice_voiceState] {
+  display: inline-block;
+  height: auto;
+  aspect-ratio: 1/1;
+  text-align: center;
+  position: relative;
+}
+
+/*# sourceMappingURL=hokke.css.map */
